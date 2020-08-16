@@ -2,9 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-style {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-allbeers {
+  padding: 1%;
+}
+
+.container-random {
+  padding: 1%;
+}
+
+.container-newbeer {
+  padding: 1%;
+}
+
+.container-beers {
+  /* border: 2px solid red; */
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.beer-details {
+  /* border: 2px solid blue; */
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 5%;
+}
+
+.beer-details p {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.beer-details h5 {
+  color: grey;
+  margin: 0%;
+}
+
+.beer-picture {
+  /* border: 2px solid pink; */
+  display: flex;
+  padding: 5%;
+}
+
+.container {
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin: 2%;
+}
+
+.container-beers img {
+  width: 30px;
+  height: 90px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
